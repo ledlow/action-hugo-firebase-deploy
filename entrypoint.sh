@@ -12,7 +12,7 @@ ALIAS=${2:-alias}
 
 # Publish to Google Firebase.
 firebase use mnmlist-me --token $FIREBASE_DEPLOY_TOKEN
-firebase -P mnml deploy -m "
+firebase -P mnmlist-me deploy -m "
   Successful Deployment: 
   Event: $GITHUB_EVENT_NAME,
   Commit SHA: $GITHUB_SHA,
