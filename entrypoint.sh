@@ -4,7 +4,7 @@
 hugo version
 
 # Build the Hugo site.
-hugo
+hugo -t sam
 
 # Retrieve the input arguments/parameters.
 FIREBASE_DEPLOY_TOKEN=$1
