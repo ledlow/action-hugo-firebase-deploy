@@ -11,7 +11,7 @@ FIREBASE_DEPLOY_TOKEN=$1
 ALIAS=${2:-alias}
 
 # Publish to Google Firebase.
-firebase use --token $FIREBASE_DEPLOY_TOKEN --add
+firebase use mnmlist-me --alias mnml --token $FIREBASE_DEPLOY_TOKEN
 firebase deploy -m "
   Successful Deployment: 
   Event: $GITHUB_EVENT_NAME,
